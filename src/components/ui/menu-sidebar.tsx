@@ -1,7 +1,7 @@
 'use client'
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Bell, Home, LineChart, Package, Package2, ShoppingCart, Users } from "lucide-react";
+import { Bell, Home, Image, Images, Package2, ShoppingCart, Users } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
@@ -11,11 +11,9 @@ export default function MenuSidebar() {
   const pathName = usePathname();
 
   const menuItems = [
-    { href: "/", label: "Dashboard", icon: Home },
-    { href: "/orders", label: "Pedidos", icon: ShoppingCart, badge: 6 },
-    { href: "/products", label: "Produtos", icon: Package },
-    { href: "/clients", label: "Clientes", icon: Users },
-    { href: "/analytics", label: "Análise", icon: LineChart },
+    { href: "/", label: "Home", icon: Home },
+    { href: "/products", label: "Remover fundo", icon: Images},
+    { href: "/orders", label: "Imagens", icon: Image, badge: 6 },
   ];
 
   return (
