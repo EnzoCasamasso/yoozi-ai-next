@@ -96,8 +96,8 @@ export default function Header() {
         <DropdownMenuContent align="end">
           <DropdownMenuLabel>Minha conta</DropdownMenuLabel>
           <DropdownMenuSeparator />
+          <DropdownMenuItem>Perfil</DropdownMenuItem>
           <DropdownMenuItem>Configurações</DropdownMenuItem>
-          <DropdownMenuItem>Suporte</DropdownMenuItem>
           <DropdownMenuSeparator />
           <DropdownMenuItem>Sair</DropdownMenuItem>
         </DropdownMenuContent>
